@@ -10,10 +10,10 @@
         />
   </data>
 
-  <android.support.design.widget.CoordinatorLayout
+  <android.support.constraint.ConstraintLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       tools:context="${packageName}.${packName}.${className}">
 
-  </android.support.design.widget.CoordinatorLayout>
+  </android.support.constraint.ConstraintLayout>
 </layout>

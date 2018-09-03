@@ -1,9 +1,9 @@
 package ${packageName}.${packName}
 
-import com.github.ojh.clutter.base.BaseViewModel
+import ${applicationPackage?replace('.debug|.qa|.release', '', 'r')}.base.BaseViewModel
 import javax.inject.Inject
 
-interface ${Name}ViewModel {
+internal interface ${Name}ViewModel {
 
     interface Inputs {
 

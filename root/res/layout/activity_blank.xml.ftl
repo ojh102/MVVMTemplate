@@ -12,7 +12,6 @@
   </data>
 
   <android.support.design.widget.CoordinatorLayout
-      android:id="@+id/coordinator_layout"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       tools:context="${packageName}.${packName}.${className}">

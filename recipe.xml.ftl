@@ -12,6 +12,11 @@
     <instantiate from="src/app_package/BlankViewModel.kt.ftl"
                    to="${escapeXmlAttribute(srcOut)}/${packName}/${Name}ViewModel.kt" />
 
+    <open file="${escapeXmlAttribute(srcOut)}/${packName}/${Name}ActivityModule.kt" />
+
+    <instantiate from="src/app_package/BlankActivityModule.kt.ftl"
+                   to="${escapeXmlAttribute(srcOut)}/${packName}/${Name}ActivityModule.kt" />
+
     <open file="${escapeXmlAttribute(srcOut)}/${packName}/${className}.kt" />
 
     <instantiate from="src/app_package/BlankActivity.kt.ftl"
